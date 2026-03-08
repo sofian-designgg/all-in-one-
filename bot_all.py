@@ -729,7 +729,7 @@ async def sondage(ctx, question: str, *options):
 #  AIDE
 # ─────────────────────────────────────────
 
-@bot.command(name="aide", aliases=["help", "commands"])
+@bot.command(name="aide", aliases=["commands"])
 async def aide(ctx):
     """Affiche toutes les commandes."""
     emb = discord.Embed(title="📖 Bot All-in-One — Aide", color=discord.Color.blurple(), timestamp=datetime.datetime.utcnow())
